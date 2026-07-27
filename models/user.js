@@ -1,5 +1,3 @@
-const { all } = require("../routes/api");
-
 module.exports = (sequelize, DataTypes) => {
     const User = sequelize.define('User', {
         id: {
